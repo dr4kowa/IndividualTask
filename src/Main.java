@@ -12,6 +12,7 @@ public class Main {
         Telephone telephone = new Telephone(TelephoneMark, TelephoneModel);
         System.out.println("Старые марка и модель телефона: " + telephone.toString());
         prodavec prod = new prodavec(telephone);
+
         prod.modify(telephone);
         System.out.println("Новые марка и модель телефона: " + telephone.toString());
     }

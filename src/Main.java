@@ -11,7 +11,7 @@ public class Main {
         String TelephoneModel = scan.next();
         Telephone telephone = new Telephone(TelephoneMark, TelephoneModel);
         System.out.println("Старые марка и модель телефона: " + telephone.toString());
-        prodavec prod = new prodavec(telephone);
+        prodavec prod = new prodavec();
 
         prod.modify(telephone);
         System.out.println("Новые марка и модель телефона: " + telephone.toString());

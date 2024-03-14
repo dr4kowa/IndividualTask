@@ -1,6 +1,4 @@
 public class prodavec {
-    public prodavec(Telephone telephone) {
-    }
 
     public void modify(Telephone telephone) {
         String TeleMark = telephone.getTelephoneMark();
